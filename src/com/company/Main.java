@@ -16,8 +16,8 @@ public class Main {
             }
         }
         System.out.println("contient une valeur inferieur a 10 "+moinsde10);
-        System.out.println("moyenne"+total/7);
-        System.out.println("max="+max);
+        System.out.println("moyenne "+total/scores.length);
+        System.out.println("max = "+max);
 
     }
 
