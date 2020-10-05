@@ -11,9 +11,9 @@ public class Main {
             if (max<scores[i]){
                 max=scores[i];
             }
-            if (scores[i]<10);
-            moinsde10=true;
-
+            if (scores[i]<10) {
+                moinsde10 = true;
+            }
         }
         System.out.println("contient une valeur inferieur a 10 "+moinsde10);
         System.out.println("moyenne"+total/7);
