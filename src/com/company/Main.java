@@ -1,7 +1,11 @@
 package com.company;
 
 public class Main {
-    static void score(int[] scores){
+    /**
+     * Nous montre la valeur max,la moyenne d'un tableau et si il contient un chiffre inférieur a 10
+     * @param scores est un tableau utiliser dans la fonction score
+     */
+    public static void score(int[] scores){
         int max=0;
         float total=0;
         boolean moinsde10=false;
