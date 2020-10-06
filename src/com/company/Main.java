@@ -6,7 +6,7 @@ public class Main {
      * @param scores est un tableau utiliser dans la fonction score
      */
     public static void score(int[] scores){
-        int max=0;
+        int max=Integer.MIN_VALUE;
         float total=0;
         boolean moinsde10=false;
         for(int i=0;i<scores.length;i++){
