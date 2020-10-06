@@ -1,6 +1,6 @@
 package com.company;
 
-public class TP5 {
+public class TP5123 {
     static void countDownLoop(int start) {
         for (int i = start; i > 0; i--) {
             System.out.println(i + "...");

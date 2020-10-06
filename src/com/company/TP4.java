@@ -7,7 +7,7 @@ public class TP4 {
      * @param nombre est un nombre entier utiliser dans la fonction recherche
      * @return i si le chiffre est trouver et -1 si le chiffre n'est pas dans le tableau
      */
-    static int recherche(int[] croissant, int nombre) {
+    public static int recherche(int[] croissant, int nombre) {
         int min = 0;
         int max = croissant.length - 1;
         int index = -1;
